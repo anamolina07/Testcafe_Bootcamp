@@ -10,6 +10,6 @@ Los requerimientos de software son minimos, y constan de:
 * Navegador [Chrome](https://www.google.com/chrome/).
 * [Visual Studio Code](https://code.visualstudio.com/).
 * Instalar [GIT](https://git-scm.com/book/es/v1/Empezando-Instalando-Git).
-* [Git Bash] (https://git-scm.com/download/win).
-* [NodeJS] (https://nodejs.org/es/download/).
+* [Git Bash](https://git-scm.com/download/win).
+* [NodeJS](https://nodejs.org/es/download/).
 * 

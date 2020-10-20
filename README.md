@@ -4,7 +4,7 @@
  TestCafé es una solución completa de node.js para probar aplicaciones web. Se encarga de todas las etapas: iniciar navegadores, ejecutar pruebas, recopilar resultados de pruebas y generar informes. 
  TestCafé no necesita complementos para el navegador: funciona en todos los navegadores modernos populares, listos para usar.
 
-## Requisitos de software
+## Requisitos de software para este Bootcamp:
 Los requerimientos de software son minimos, y constan de:
 
 * Navegador [Chrome](https://www.google.com/chrome/).
@@ -12,4 +12,7 @@ Los requerimientos de software son minimos, y constan de:
 * Instalar [GIT](https://git-scm.com/book/es/v1/Empezando-Instalando-Git).
 * [Git Bash](https://git-scm.com/download/win).
 * [NodeJS](https://nodejs.org/es/download/).
-* 
+
+Las prácticas del curso están divididas en dos carpetas:
+* JavaScript: Contiene ejercicios de práctica con JavaScript
+* Testcafe: Contiene ejercicios de práctica ya integrando Testcafe

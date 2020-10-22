@@ -16,12 +16,18 @@ class Page {
 
     // Practica 4
     this.link4 = Selector('a').withText('Checkboxes');
-    //Checkbox padre
+    //  //Checkbox padre
     this.baseCheckbox = Selector('#checkboxes > input[type=checkbox]');   
 
-    //Checkbox hijo --> en caso de que se quiera ser muy especifico en el nombre del componente que se está localizando
+    //  //Checkbox hijo --> en caso de que se quiera ser muy especifico en el nombre del componente que se está localizando
     //this.checkbox41 = Selector('#checkboxes > input[type=checkbox]:nth-child(1)');
     //this.checkbox42 = Selector('#checkboxes > input[type=checkbox]:nth-child(3)');
+
+    // Practica 5
+    this.link5 = Selector('a').withText('Inputs');
+    this.input51 = Selector('#content > div > div > div > input[type=number]');
+
+
     }
 }
 export default new Page();

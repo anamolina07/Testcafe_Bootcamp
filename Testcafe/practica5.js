@@ -1,6 +1,6 @@
 import page from './pageModel';
 
-fixture('Practica 4 con Testcafe')
+fixture('Practica 5 con Testcafe')
     .page('https://the-internet.herokuapp.com/')
 
 test('Probar ingresar valores en Input', async t =>{
@@ -33,7 +33,7 @@ test('Probar ingresar caracteres especiales en Input', async t =>{
         .click(page.link5)
            
     await t
-    .typeText(page.input51, "#$!&#$%&=?¡*-+")
+        .typeText(page.input51, "#$!&#$%&=?¡*-+")
         .expect(page.input51.value).eql("")
 });
 
@@ -42,6 +42,6 @@ test('Probar ingresar letras y numeros en Input', async t =>{
         .click(page.link5)
            
     await t
-    .typeText(page.input51, "Hola12345")
+        .typeText(page.input51, "Hola12345")
         .expect(page.input51.value).eql("12345")
 });

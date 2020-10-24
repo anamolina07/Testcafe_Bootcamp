@@ -27,6 +27,14 @@ class Page {
     this.link5 = Selector('a').withText('Inputs');
     this.input51 = Selector('#content > div > div > div > input[type=number]');
 
+    // Practica 5
+    this.link6 = Selector('a').withText('Add/Remove Elements');
+    this.addBtn61 = Selector('#content > div > button');
+    this.removeBtn62 = Selector('#elements > button') // Selector cuendo se agrega solo un elemento
+    this.removeBtn63 = Selector('#elements > button:nth-child(1)')  
+    this.removeBtn64 = Selector('#elements > button:nth-child(2)')    
+    this.removeBtn65 = Selector('#elements > button:nth-child(3)')   
+    
 
     }
 }

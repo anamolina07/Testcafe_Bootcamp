@@ -51,6 +51,19 @@ class Page {
     this.button704 = Selector('body > div > form > div > div:nth-child(15) > a');
     this.text705 = Selector('h1').withText('Thanks for submitting your form');    
     this.text706 = Selector('body > div > div');    
+
+    // Practica 8
+
+    // Practica 9
+    this.link9 = Selector('a').withText('Key Presses');
+    this.text91 = Selector('#result');
+
+
+    // Practica 10
+    this.link10 = Selector('a').withText('Context Menu');
+    this.hotspot101 = Selector('#hot-spot');
+    
+
     }
 }
 export default new Page();
